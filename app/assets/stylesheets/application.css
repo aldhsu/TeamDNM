@@ -25,11 +25,12 @@
 }
 
 body {
-  background-color: #FFC2EA;
+  background-color: #F5533D;
   color: white;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family:Insaniburger;
+  font-family: Insaniburger;
+  margin: 0;
 }
 
 #gh-btn {
@@ -60,6 +61,7 @@ body {
   top: 0;
   right: 0;
   min-width: 100%;
+  background-color: #F5533D;
 }
 
 #nav {

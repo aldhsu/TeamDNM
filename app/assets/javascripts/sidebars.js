@@ -39,7 +39,7 @@ $(document).ready(function() {
 
 
     init:function(){
-      $('.vis-panel').css('height',visTab.containerHeight + 'px');
+      $('.vis-panel').css('height', 'auto');
 
       $('a.vis-tab').click(function(event){
         console.log('sdfsd')
