@@ -27,7 +27,7 @@ a.sound-tab, a.vis-tab {
   font-size: 1.5em;
   padding: 12px 8px 12px 8px;
   text-decoration: none;
-  color: #B9BFBD;
+  color: #FFF;
 }
 
 /* sound tab */
@@ -51,6 +51,7 @@ a.sound-tab span {
   top: 100px;
   right: -250px;
   padding-bottom: 30px;
+  font-family: 'Raleway', sans-serif;fon
 }
 
 /* visual tab */
@@ -68,7 +69,7 @@ a.vis-tab span {
 
 /* div for colour underneath sound menu options */
 .under-color {
-  background-color: #B5FFFB;
+  background-color: #FFF;
   height: 59px;
   width: 245px;
 }
@@ -93,12 +94,12 @@ a.vis-tab span {
   text-align: center;
   padding-bottom: 15px;
   font-size: 22px;
-  color: #B9BFBD;
+  color: #FFF;
   /*text-shadow: 0px 0px 15px white, 2px 2px 3px black;*/
   /*border-bottom: 1px solid #94FFFF;*/
   cursor: pointer;
   padding-top: 20px;
-  border-bottom: 1px solid #B5FFFB;
+  border-bottom: 1px solid #FFF;
 }
 
 /* all buttons */
@@ -106,16 +107,16 @@ a.vis-tab span {
 #soundcloud-menu:hover,
 #sign-in-link:hover a,
 #sign-up-link:hover a {
-  color: #B5FFFB;
+  color: #FFF;
   text-shadow: 0px 0px 10px white, 2px 2px 3px black;
-  /*border-bottom: 4px solid #B5FFFB;*/
+  /*border-bottom: 4px solid #FFF;*/
   /*box-shadow: 0 0 15px white;*/
 }
 
 /* hover for tab spans */
 #span-container:hover {
   display: block;
-  color: #B5FFFB;
+  color: #FFF;
   text-shadow: 0px 0px 10px white, 2px 2px 3px black;
 }
 
@@ -129,6 +130,7 @@ select, input[type="color"][list] {
   background-color: white;
   border: 0px;
   font-size: 1em;
+  font-weight: 0.5em;
 }
 
 #sunflareSubmit, #sunflare-save, #linesSubmit, #lines-save, #cubeGridSubmit, #cubegrid-save, #visualisers_list {

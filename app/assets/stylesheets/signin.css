@@ -15,10 +15,12 @@
   -ms-transition: all 0.30s ease-in-out;
   -o-transition: all 0.30s ease-in-out;
   outline: none;
-  padding: 2px 0px 2px 2px;
-  margin: 3px 1px 3px 0px;
-  border: 2px solid #B5FFFB;
+  padding: 5px 2px 5px 5px;
+  margin: 3px 1px 13px 0px;
+  border: none;
   font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
 }
 
 .sign-in-form  label{
@@ -30,9 +32,8 @@ input[name=commit]{
   position-left: 200px;
   border: 0;
   margin: 0;
-  text-shadow: 2px 2px #FFF;
   position: relative;
-  padding: 4px 3px;
+  padding: 5px 5px;
   font-size: 1em;
   text-transform: uppercase;
   border-radius: 0;
@@ -40,18 +41,17 @@ input[name=commit]{
   -webkit-transform:rotate(180deg);
   transform:rotate(180deg);
   transform: translate(2px,3px);
-  color: #B9BFBD;
+  color: #000;
   text-decoration: none;
   vertical-align: top;
+  background-color: #FFF;
+  letter-spacing: 4px;
 }
 
 input[name=commit]:hover{
-  background-color: #B5FFFB;
+  background-color: #000;
   position-left: 200px;
   border: 0;
-  border-bottom: 1px solid #FFF;
-  border-right: 1px solid #FFF;
-  text-shadow: 2px 2px #FFF;
   position: relative;
   padding: 4px 3px;
   font-size: 1em;
@@ -61,7 +61,7 @@ input[name=commit]:hover{
   -webkit-transform:rotate(180deg);
   transform:rotate(180deg);
   transform: translate(2px,3px);
-  color: #B9BFBD;
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -73,17 +73,20 @@ input[name=commit]:hover{
 
 #signup h2{
   font-size: 2em;
+  letter-spacing: 4px;
 }
 
-#signup input[type=text], input[name=signup_p], input[name=signup_confirm], textarea{
+#signup input[type=text], input[name=signup_p], input[name=signup_confirm], input[name=password], textarea{
   font-size: 1.2em;
   width: 100%;
   border-style: 0;
   border-radius: 1;
+  letter-spacing: 4px;
 }
 
 #signup h3{
   font-size: 1.2em;
+  letter-spacing: 4px;
 }
 
 #user_password{
@@ -91,6 +94,7 @@ input[name=commit]:hover{
   width: 100%;
   border-style: 0;
   border-radius: 1;
+  letter-spacing: 4px;
 }
 
 #user_password_confirmation{
@@ -98,21 +102,22 @@ input[name=commit]:hover{
   width: 100%;
   border-style: 0;
   border-radius: 1;
+  letter-spacing: 4px;
 }
 
 
 #title a{
-  color: #B9BFBD;
+  color: #FFF;
   text-decoration: none;
 }
 
 #title a:hover{
-  color: #B5FFFB;
+  color: #000;
   text-shadow: 0px 0px 10px white, 2px 2px 3px black;
 }
 
 .log-out-link a{
-  color: #B9BFBD;
+  color: #FFF;
   text-decoration: none;
   position: absolute;
   top: 10px;
@@ -120,7 +125,7 @@ input[name=commit]:hover{
 }
 
 .log-out-link a:hover{
-  color: #B5FFFB;
+  color: #000;
   text-shadow: 0px 0px 10px white, 2px 2px 3px black;
 }
 

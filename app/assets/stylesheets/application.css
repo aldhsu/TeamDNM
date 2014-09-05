@@ -15,23 +15,27 @@
  *= require_self
  */
 
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+/*@import url(http://fonts.googleapis.com/css?family=Inconsolata);*/
+@font-face { font-family: Insaniburger; src: url(../fonts/Insanibu.ttf); }
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 
 * {
-  font-family: 'Inconsolata';
+  font-family: Insaniburger;
+  letter-spacing: 3px;
 }
 
 body {
-  background-color: black;
+  background-color: #FFC2EA;
   color: white;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family: 'Inconsolata';
+  font-family:Insaniburger;
 }
 
 #gh-btn {
   position: relative;
   z-index: 10;
+  width: 20px;
   margin: 1px 10px 0 0;
   width: 20px;
 }
@@ -44,8 +48,8 @@ body {
   display: block;
   font-size: 1.5em;
   letter-spacing: 2px;
-  border-left: 1px solid #B9BFBD;
-  border-right: 1px solid #B9BFBD;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
   padding: 0 10px 0 10px;
   margin-left: 5px;
 
@@ -60,13 +64,13 @@ body {
 
 #nav {
   height: 41px;
-  background: #B5FFFB;
+  /*background: #B5FFFB;*/
   text-align: right;
 }
 
 #inner-nav {
   height: 40px;
-  background: #2F3030;
+  /*background: #2F3030;*/
 }
 
 #sign-up-link,
@@ -81,12 +85,18 @@ body {
 #sign-in-link a {
   font-size: 1.2em;
   text-decoration: none;
-  color: #B9BFBD;
+  color: #FFF;
+  letter-spacing: 2px;
+}
+
+#sign-up-link a:hover,
+#sign-in-link a:hover {
+  color: #000;
 }
 
 #sign-up-link,
 #sign-in-link {
-  border-left: 1px solid #B9BFBD;
+  border-left: 1px solid #FFF;
 }
 
 footer {
