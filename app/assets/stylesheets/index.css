@@ -21,6 +21,14 @@
   color: #000;
 }
 
+p {
+  padding: 12px 20px !important;
+}
+span#warning {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #popUpDiv h1{
   padding: 5% 5% 0% 5%;
   margin: 0;
